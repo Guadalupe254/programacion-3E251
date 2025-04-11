@@ -32,7 +32,7 @@ int main(int argc, char const *argv[])
     cout << "Memoria dinamica (Como declarar variables en ejecucion)" << endl;
     cout << ".............................................." << endl;
     cout << "Direccion dinamica" << malloc(4) <<endl; 
-    cout << "Direccion dinamica" << malloc(sizeof(int)) <<endl;
-
+    cout << "Direccion dinamica" << malloc(sizeof(int)) <<endl; 
+    
     return 0;
 }
